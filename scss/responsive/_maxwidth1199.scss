@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 1199px) {
+    .container {
+         width: 960px;
+    }
+
+    .promo {
+        padding-bottom: 100px;
+    }
+
+    .promo__title {
+        font-size: 220px;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 42px;
+    }
+
+    .promo__wrap__content__subtitle {
+        font-size: 24px;
+    }
+
+    .human {
+        width: 475px;
+    }
+
+    .promo__wrap__img__insta {
+        top: 479px;
+        left: -68px;
+    }
+
+
+
+    .biography__title {
+        font-size: 110px;
+    }
+
+    .biography__wrap__img {
+        width: 400px;
+        height: 491px;
+        margin-top: 130px;
+    }
+
+
+    .advantages__wrap__content {
+        column-gap: 35px;
+    }
+    .advantages__wrap__content__item {
+        margin-bottom: 20px;
+    }
+
+
+    .material__wrap__img {
+        margin-left: 0;
+    }
+    .material__wrap__content {
+        margin-left: 40px;
+    }
+
+
+    .price__wrap {
+        margin-left: 0;
+    }
+
+
+    .review__title {
+        font-size: 120px;
+    }
+    .review__wrap {
+        margin-bottom: 70px;
+    }
+    .review__wrap__inner {
+        display: flex;
+    }
+
+
+    .form__title {
+        font-size: 120px;
+    }
+
+
+    .media__title {
+        font-size: 93px;
+    }
+    .media__wrap__item__text {
+        font-size: 36px;
+    }
+    .instagram {
+        width: 30px;
+        height: 46.5px;
+    }
+    .telegram {
+        width: 30px;
+        height: 46.5px;
+    }
+    .whatsapp {
+        width: 30px;
+        height: 46.5px;
+    }
+}

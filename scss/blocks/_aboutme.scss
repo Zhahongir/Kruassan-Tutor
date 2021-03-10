@@ -1,0 +1,55 @@
+.biography {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding-top: 60px;
+    position: relative;
+    z-index: 1;
+    &__title {
+        font-size: 160px;
+        color: rgba(255, 255, 255, 0.05);
+        position: absolute;
+        left: 80px;
+        z-index: -1;
+        top: 125px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        &__content {
+            &__title {
+                font-size: 36px;
+                color: #fff;
+                font-weight: 500;
+                margin-top: 60px;
+            }
+            &__subtitle {
+                font-size: 24px;
+                color: #fff;
+                margin-top: 40px;
+                font-weight: 500;
+                span {
+                    color: #FDE14D;
+                }
+            }
+            &__list {
+                width: 475px;
+                margin-top: 20px;
+                margin-bottom: 0;
+                &__item {
+                    font-size: 18px;
+                    color: #fff;
+                    font-weight: 500;
+                    &:not(:last-child) {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        &__progress {
+            margin-top: 83px;
+        }
+    }
+}

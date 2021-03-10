@@ -1,0 +1,87 @@
+.media {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+    &__title {
+        font-size: 120px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.05);
+        position: absolute;
+        left: 80px;
+        z-index: -1;
+        top: 90px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+    &__name {
+        font-size: 36px;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 75px;
+        &__item {
+            display: flex;
+            &:hover text {
+                color: #fff;
+            }
+            &:hover img {
+                color: #fff;
+            }
+            &__text {
+                font-size: 48px;
+                color: #BFBEBE;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin-left: 11px;
+                transition: 0.5s all;
+            }
+            &__img {
+                transition: 0.5s all;
+            }
+        }
+    }
+}
+
+.instagram {
+    fill: #BFBEBE;
+    width: 37px;
+    height: 58.5px;
+}
+
+.telegram {
+    fill: #BFBEBE;
+    width: 37px;
+    height: 58.5px;
+}
+
+.whatsapp {
+    fill: #BFBEBE;
+    width: 37px;
+    height: 58.5px;
+}
+
+.media__wrap__item:hover .instagram{
+    fill: #fff;
+}
+
+.media__wrap__item:hover .media__wrap__item__text{
+    color: #fff;
+}
+
+.media__wrap__item:hover .telegram{
+    fill: #fff;
+}
+
+.media__wrap__item:hover .whatsapp{
+    fill: #fff;
+}
+

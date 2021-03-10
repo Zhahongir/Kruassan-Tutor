@@ -1,0 +1,197 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 300px;
+    }
+    
+    br {
+        display: block;
+    }
+    .menu__inner__nav__item a {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 30px;
+    }
+    .promo__wrap__content__subtitle {
+        font-size: 20px;
+    }
+    .promo__wrap__content__list__item__text {
+        width: 221px;
+    }
+    .promo__title {
+        font-size: 65px;
+    }
+    .human {
+        width: 300px;
+    }
+    .promo__wrap__img__insta {
+        top: 422px;
+        left: 115px;
+    }
+    .promo__wrap__img__insta__curve {
+        display: none;
+    }
+
+
+    .biography__title {
+        font-size: 35px;
+    }
+    .biography__wrap__content__title {
+        margin-top: 51px;
+        font-size: 28px;
+    }
+    .biography__wrap__content__subtitle {
+        font-size: 18px;
+    }
+    .biography__wrap__content__list__item {
+        font-size: 16px;
+    }
+    .biography__wrap__img {
+        width: 290px;
+        height: 355.75px;
+    }
+
+
+    .advantages__title {
+        font-size: 54px;
+    }
+    .advantages__name {
+        font-size: 28px;
+    }
+    .advantages__bonus__inner__title {
+        font-size: 18px;
+    }
+    .advantages__bonus__inner__img {
+        width: 25px;
+    }
+    .advantages__bonus__item__text {
+        font-size: 16px;
+    }
+    .advantages__bonus__item__img {
+        width: 50px;
+    }
+    .advantages__wrap__content__item__img  {
+        width: 45px;
+        height: 45px;
+    }
+    .img-w74 {
+        width: 60px;
+    }
+    .mt30 {
+        margin-top: 30px;
+    }
+    .mt35 {
+        margin-top: 35px;
+    }
+
+
+
+    .price__title {
+        font-size: 74px;
+    }
+    .price__name {
+        font-size: 28px;
+    }
+
+
+    .material__title {
+        font-size: 51px;
+    }
+    .material__name {
+        font-size: 28px;
+        margin-top: 42px;
+    }
+    .material__wrap {
+        flex-direction: column
+    }
+    .material__wrap__img__text {
+        width: auto;
+    }
+    .material__wrap__content {
+        margin-top: 35px;
+    }
+    .material__wrap__img {
+        margin-top: 10px;
+    }
+
+
+    .review__title {
+        font-size: 38px;
+    }
+    .review__name {
+        margin-top: 25px;
+        font-size: 28px;
+    }
+    .review__wrap__inner__slide {
+        margin-bottom: 60px;
+    }
+    .review__wrap__inner__slide__img {
+        max-width: 283px;
+    }
+    .review__wrap__inner__slide__person {
+        top: 520px;
+        left: 70px;
+    }
+    .review__wrap__inner__slide__person__name {
+        font-size: 16px;
+    }
+    .review__wrap__inner__slide__person__img {
+        width: 22px;
+        left: -29px;
+        top: -2px;
+    }
+    .review-link-02 {
+        top: 540px;
+        left: 99px;
+    }
+
+
+    .form__title {
+        font-size: 40px;
+    }
+    .form__name {
+        font-size: 28px;
+    }
+    .form__wrap__content p input {
+        width: 280px;
+    }
+    .form__wrap__content__btn {
+        padding: 7px 95px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .media__title {
+        font-size: 29px;
+    }
+    .media__name {
+        font-size: 28px;
+    }
+    .media__wrap {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .media__wrap__item__text {
+        font-size: 28px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .instagram {
+        width: 25px;
+        height: 33.5px;
+    }
+    .telegram {
+        width: 25px;
+        height: 33.5px;
+    }
+    .whatsapp {
+        width: 25px;
+        height: 33.5px;
+    }
+    .footer__wrap__curve {
+        width: 280px;
+    }
+}
