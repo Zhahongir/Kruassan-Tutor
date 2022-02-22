@@ -1,0 +1,153 @@
+.price {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding-top: 114px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    &__hasbik {
+        width: 370px;
+        height: 170px;
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+    }
+    &__title {
+        font-size: 160px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.05);
+        position: absolute;
+        left: 80px;
+        z-index: -1;
+        top: 127px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+    &__name {
+        font-size: 36px;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__wrap {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 84px;
+        &__tariff {
+            max-width: 255px;
+            max-height: 300px;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 5px 32px 36px 32px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
+            position: relative;
+            &__emoji {
+                position: relative;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                &__img {
+                    width: 120px;
+                    z-index: 10;
+                }
+                &__bg {
+                    position: absolute;
+                    bottom: -10px;
+                    left: 33px;
+                    z-index: -2;
+                    width: 150px;
+                }
+            }
+            &__medal {
+                width: 62px;
+                height: 62px;
+                position: absolute;
+                top: -1px;
+                right: -6px;
+            }
+            &__inner {
+                margin-top: 16px;
+                position: relative;
+                &__price {
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: #0F0F0F;
+                    margin-top: 16px;
+                }
+                &__benefit {
+                    font-size: 16px;
+                    margin: 0;
+                    font-weight: 500;
+                    color: #049c37;
+                }
+                a {
+                    position: absolute;
+                    top: -5px;
+                    right: -6px;
+                }
+            }
+
+            &__price {
+                font-size: 24px;
+                font-weight: 500;
+                color: #0F0F0F;
+                margin-top: 16px;
+            }
+
+            &__name {
+                font-size: 18px;
+                font-weight: 500;
+                color: #858585;
+                margin-top: 16px;
+            }
+            
+            &__btn {
+                background: #FDE14D;
+                box-shadow: 0px 0px 20px #FFC387;
+                border-radius: 20px;
+                border: none;
+                padding: 7.5px 57.5px;
+                margin-top: 40px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                color: #454140;
+                outline: none;
+                cursor: pointer;
+                transition: 0.5s all;
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+        }
+        &__img {
+            margin-top: -140px;
+        }
+    }
+}
+
+.ninja-bg {
+    width: 175px;
+    left: 15px;
+}
+
+.hero {
+    width: 113px;
+}
+
+.hero-bg {
+    width: 175px;
+    left: 15px;
+}
+
+.mt-btn {
+    margin-top: 20px;
+}
+
+
+
+

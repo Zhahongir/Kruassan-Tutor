@@ -1,0 +1,43 @@
+.publishers {
+    padding-top: 65px;
+    padding-bottom: 50px;
+    position: relative;
+    &__title {
+        font-size: 160px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.05);
+        position: absolute;
+        left: 80px;
+        z-index: -1;
+        top: 100px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 73px;
+        align-items: center;
+        .parther-1 {
+            width: 252px;
+            height: 74px;
+        }
+        .parther-2 {
+            width: 146px;
+            height: 100px;
+        }
+        .parther-3 {
+            width: 160px;
+            height: 100px;
+        }
+        .parther-4 {
+            width: 160px;
+            height: 100px;
+        }
+        .parther-5 {
+            width: 238px;
+            height: 74px;
+        }
+    }
+}

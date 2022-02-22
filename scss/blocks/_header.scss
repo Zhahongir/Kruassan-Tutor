@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);  
+    z-index: 100;  
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        &__list {
+            &:not(:last-child) {
+                margin-right: 40px;
+            }
+            a {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+                transition: 0.5s all;
+                &:hover {
+                    color: #FDE14D;
+                }
+            }
+        }
+    }
+}
+
+.mob__header__media {
+    display: block;
+    position: relative;
+}
+
+.mob__header__media__link__logo {
+    width: 25px;
+}
+
+.mob__header__media__link {
+    margin-right: 10px;
+}

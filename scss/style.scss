@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0F0F0F;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+// Blocks
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/aboutme';
+@import 'blocks/advantages';
+@import 'blocks/price';
+@import 'blocks/material';
+@import 'blocks/review';
+@import 'blocks/form';
+@import 'blocks/media';
+@import 'blocks/publishers';
+@import 'blocks/footer';
+@import 'blocks/tooltip';
+
+// Responsive 
+@import 'responsive/minwidth1200';
+@import 'responsive/maxwidth1199';
+@import 'responsive/maxwidth991';
+@import 'responsive/maxwidth767';
+@import 'responsive/maxwidth576';
+
+.demo,
+.demo p {
+  margin: 4em 0;
+  text-align: center;
+}
+

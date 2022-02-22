@@ -1,0 +1,163 @@
+
+@media screen and (max-width: 1199px) {
+    .container {
+         width: 960px;
+    }
+
+    .header__nav__list:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .header__nav__list a {
+        font-size: 16px;
+    }
+
+
+    .promo {
+        padding-bottom: 100px;
+    }
+
+    .promo__title {
+        font-size: 220px;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 42px;
+    }
+
+    .promo__wrap__content__subtitle {
+        font-size: 24px;
+    }
+
+    .human {
+        width: 475px;
+    }
+
+    .promo__wrap__img__insta {
+        top: 418px;
+        left: 26px;
+    }
+
+
+
+    .biography__title {
+        font-size: 110px;
+    }
+
+    .biography__wrap__img {
+        width: 400px;
+        height: 491px;
+        margin-top: 70px;
+    }
+
+    .biography__wrap__content__subtitle {
+        font-size: 22px;
+    }
+
+    .biography__wrap__content__list__item {
+        font-size: 16px;
+    }
+
+
+    .advantages__wrap__content {
+        column-gap: 35px;
+    }
+    .advantages__wrap__content__item {
+        margin-bottom: 20px;
+    }
+
+    .material__wrap__content__list__item {
+        font-size: 20px;
+    }
+
+
+    .material__wrap__img {
+        margin-left: 0;
+    }
+    .material__wrap__content {
+        margin-left: 40px;
+    }
+
+
+    .price{
+        padding-bottom: 144px;
+    }
+    .price__wrap {
+        margin-left: 0;
+    }
+
+
+    .review {
+        padding-bottom: 0;
+    }
+    .review__title {
+        font-size: 120px;
+    }
+    .review__wrap {
+        margin-bottom: 70px;
+    }
+    .review__wrap__inner {
+        display: flex;
+    }
+    .review__wrap__inner__slide__img {
+        width: 230px;
+        height: 455px;
+    }
+    .swiper-container {
+        width: 760px;
+        height: 480px;
+    }
+    .prev-slider1 {
+        left: 0;
+        top: 260px !important;
+    }
+    .next-slider1 {
+        right: 59px;
+        top: 260px !important;
+    }
+
+
+    .publishers__title {
+        font-size: 120px;
+    }
+    .publishers__wrap .parther-1 {
+        width: 200px;
+        height: 59px;
+    }
+    .publishers__wrap .parther-2 {
+        width: 130px;
+        height: 89px;
+    }
+    .publishers__wrap .parther-3 {
+        width: 140px;
+        height: 87px;
+    }
+    .publishers__wrap .parther-4 {
+        width: 140px;
+        height: 88px;
+    }
+    .publishers__wrap .parther-5 {
+        width: 193px;
+        height: 60px;
+    }
+
+
+    .media__title {
+        font-size: 93px;
+    }
+    .media__wrap__item__text {
+        font-size: 36px;
+    }
+    .instagram {
+        width: 30px;
+        height: 46.5px;
+    }
+    .telegram {
+        width: 30px;
+        height: 46.5px;
+    }
+    .whatsapp {
+        width: 30px;
+        height: 46.5px;
+    }
+}

@@ -1,0 +1,276 @@
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .mob__header {
+        margin-right: 85px;
+    }
+    .header__menu {
+        justify-content: flex-end;
+    }
+    .header__nav {
+        display: none;
+    }
+    .hamburger {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+    .hamburger span{
+        display: block;
+        
+    }
+    .menu {
+        display: block;
+    }
+
+    .promo {
+        padding-bottom: 32px;
+        padding-top: 25px;
+    }
+    .promo__title {
+        font-size: 160px;
+    }
+    .promo__wrap__content__title {
+        font-size: 35px;
+    }
+    .promo__wrap__content__rectangle {
+        margin: no;
+    }
+    .accent { 
+        font-size: 16px;
+        width: 200px;
+    }
+    .promo__wrap__content__list__item__text {
+        font-size: 16px;
+        width: 225px;
+    }
+    .promo__wrap__content__btn {
+        font-size: 18px;
+        padding: 11px 33px;
+    }
+    .human {
+        width: 365px;
+        margin-top: 100px;
+    }
+    .promo__wrap__img__insta {
+        top: 321px;
+        left: 86px;
+    }
+    .promo__wrap__img .human {
+        width: 424px;
+        height: 424px;
+        margin-top: 15px;
+    }
+    
+
+
+    .biography__title {
+        font-size: 84px;
+    }
+    .biography__wrap {
+        flex-direction: column;
+    }
+    .biography__wrap__content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .biography__wrap__content__list__item {
+        font-size: 18px;
+    }
+    .biography__wrap__content__title {
+        text-align: center;
+        margin-top: 48px;
+    }
+    .biography__wrap__content__subtitle {
+        text-align: center;
+    }
+    .biography__wrap__content__list {
+        width: 100%;
+    }
+    .biography__wrap__img {
+        order: 2;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+    .biography__wrap__progress {
+        display: none;
+    }
+
+
+    .advantages {
+        padding-top: 115px;
+    }
+    .advantages__title  {
+        font-size: 120px;
+    }
+    .advantages__wrap__img {
+        display: none;
+    }
+    .advantages__wrap__content__item__inner__title {
+        font-size: 20px;
+    }
+    .advantages__wrap__content__item__inner__text {
+        font-size: 16px;
+    }
+    .advantages__wrap__content__item__img {
+        width: 55px;
+        height: 55px;
+    }
+    .img-w74 {
+        width: 65px;
+        height: 65px;
+    }
+    .tutor__icon {
+        width: 55px;
+        height: 64.92px;
+    }
+
+
+    .price {
+        padding-bottom: 183px;
+    }
+    .price__wrap__img {
+        display: none;
+    }
+    .price__wrap__tariff__inner__price {
+        font-size: 22px;
+    }
+
+    .price__wrap__tariff {
+        width: 165px;
+    }
+
+    .price__wrap__tariff__price {
+        font-size: 23px;
+    }
+    .price__wrap__tariff__emoji__bg {
+        left: -7px;
+    }
+    .bg-recriut {
+        left: 10px;
+    }
+    .price__wrap__tariff__btn {
+        padding: 7px 10px; 
+    }
+    .price__wrap__tariff__inner__benefit {
+        font-size: 15px;
+    }
+
+
+    .material__title {
+        font-size: 122px;
+    }
+    .material__wrap__progress {
+        display: none;
+    }
+    .material__wrap__img__text {
+        font-size: 20px;
+    }
+    .material__wrap__content {
+        margin-left: 25px;
+        margin-top: 0;
+    }
+    .material__wrap__content__title {
+        font-size: 22px;
+    }
+    .material__wrap__content__list {
+        width: 444px;
+    }
+
+
+    .review__title {
+        font-size: 92px;
+    }
+    .review__wrap__progress {
+        display: none;
+    }
+    .review__wrap__inner__slide__img {
+        width: 190px;
+        height: 376px;
+    }
+    .swiper-container {
+        width: 610px;
+        height: 388px;
+    }
+    .prev-slider1 {
+        left: 0;
+        top: 235px !important;
+        width: 35px;
+        height: 35px;
+    }
+    .next-slider1 {
+        right: 0;
+        top: 235px !important;
+        width: 35px;
+        height: 35px;
+    }
+
+
+    .publishers {
+        padding-top: 53px;
+    }
+    .publishers__title {
+        font-size: 94px;
+    }
+    .form__title {
+        font-size: 94px;
+    }
+    .form__wrap__img {
+        display: none;
+    }
+    .publishers__wrap .parther-1 {
+        width: 170px;
+        height: 50px;
+    }
+    .publishers__wrap .parther-2 {
+        width: 100px;
+        height: 68px;
+    }
+    .publishers__wrap .parther-3 {
+        width: 110px;
+        height: 68px;
+    }
+    .publishers__wrap .parther-4 {
+        width: 100px;
+        height: 63px;
+    }
+    .publishers__wrap .parther-5 {
+        width: 160px;
+        height: 50px;
+    }
+    .publishers__wrap {
+        margin-top: 35px;
+    }
+    
+
+
+    .media {
+        padding-top: 40px;
+    }
+    .media__title {
+        font-size: 68px;
+    }
+
+
+    .media__wrap__item__text {
+        font-size: 30px;
+    }
+    .instagram {
+        width: 25px;
+        height: 34.5px;
+    }
+    .telegram {
+        width: 25px;
+        height: 34.5px;
+    }
+    .whatsapp {
+        width: 25px;
+        height: 34.5px;
+    }
+
+    .mt-btn {
+        margin-top: 22px;
+    }
+}
